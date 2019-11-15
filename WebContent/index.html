@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Expense Management - Welcome</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 center-block">
+			<h1>Online Expense Management</h1>
+			<h2><small>Expense easy, Get paid early</small></h2>
+			<form action="LoginServlet" method="POST">
+			  <div class="form-group">
+				  	<div class="input-group">
+						<div class="input-group-addon">User name</div>
+						<input type="email" class="form-control" id="username" name="username" placeholder="Email">
+					</div>
+			  </div>
+			  <div class="form-group">
+				  <div class="input-group">
+					  <div class="input-group-addon">Password</div>
+					  <input type="password" class="form-control" id="userpassword" name="userpassword" placeholder="Password">
+				  </div>
+			  </div>
+			  <div class="col-md-3"></div>
+			  <div class="col-md-6">
+				<button type="submit" class="btn btn-default">Login</button>
+			  </div>
+			  <div class="col-md-3"></div>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
